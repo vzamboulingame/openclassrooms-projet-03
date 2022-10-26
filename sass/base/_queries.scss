@@ -1,0 +1,7 @@
+/*****************************************
+* GLOBAL MEDIA QUERIES
+*****************************************/
+
+@use "../utils/" as *;
+
+@include responsive-font-size;
