@@ -374,11 +374,17 @@ img {
   display: grid;
 }
 
+.page-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /*****************************************
 * TYPOGRAPHY RULES
 *****************************************/
 body {
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 /*****************************************
@@ -394,4 +400,8 @@ body {
 }
 /*****************************************
 * HOME PAGE SPECIFIC STYLES
-*****************************************//*# sourceMappingURL=style.css.map */
+*****************************************/
+.main-logo {
+  width: 50%;
+  padding: 1em 0;
+}/*# sourceMappingURL=style.css.map */
