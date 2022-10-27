@@ -388,6 +388,18 @@ body {
 }
 
 /*****************************************
+* MODULES CLASSES
+*****************************************/
+.header-box-shadow {
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.main-logo {
+  width: 50%;
+  padding: 1em 0;
+}
+
+/*****************************************
 * ANIMATIONS
 *****************************************/
 /*****************************************
@@ -400,12 +412,4 @@ body {
 }
 /*****************************************
 * HOME PAGE SPECIFIC STYLES
-*****************************************/
-header {
-  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
-}
-
-.main-logo {
-  width: 50%;
-  padding: 1em 0;
-}/*# sourceMappingURL=style.css.map */
+*****************************************//*# sourceMappingURL=style.css.map */
