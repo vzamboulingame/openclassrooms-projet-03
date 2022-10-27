@@ -7,6 +7,7 @@
 footer {
     background: $footer-bg-color;
     color: $footer-text-color;
+    padding: 1.5em 0;
 }
 
 .header-box-shadow {
@@ -15,7 +16,7 @@ footer {
     box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 
-.main-logo {
+.header-logo {
     width: 50%;
     padding: 1em 0;
 }
