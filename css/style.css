@@ -391,12 +391,17 @@ h1 {
   font-size: 2rem;
 }
 
+.footer-title {
+  font-family: "Shrikhand", cursive;
+  text-align: justify;
+}
+
 /*****************************************
 * MODULES CLASSES
 *****************************************/
 footer {
-  background: #2d2d2d;
-  color: #fffafa;
+  background: #353535;
+  color: #ffffff;
 }
 
 .header-box-shadow {
