@@ -25,6 +25,7 @@
 
     &-title {
         font-family: $logo-font, cursive;
+        font-size: 1.8rem;
         text-align: justify;
     }
 
@@ -34,6 +35,16 @@
         &-list {
             flex-flow: column nowrap;
             margin: 1em 0;
+        }
+
+        &-logo {
+            font-size: 1.2rem;
+            width: 1.2rem;
+            vertical-align: middle;
+        }
+
+        &-link {
+            margin: 0 0 0 1em;
         }
     }
 }
