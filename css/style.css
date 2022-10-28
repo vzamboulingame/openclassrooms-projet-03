@@ -26,6 +26,15 @@ img {
      object-fit: cover;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*****************************************
 * UTILITY CLASSES
 *****************************************/
@@ -55,28 +64,34 @@ img {
 *****************************************/
 body {
   font-family: "Roboto", sans-serif;
-  text-align: center;
 }
 
 h1 {
   font-size: 2rem;
 }
 
-.footer-title {
-  font-family: "Shrikhand", cursive;
-  text-align: justify;
-}
-
 /*****************************************
-* MODULES CLASSES
+* GLOBAL MODULES CLASSES
 *****************************************/
-footer {
+.footer {
+  flex-flow: column nowrap;
   background: #353535;
   color: #ffffff;
   padding: 1.5em 0;
 }
+.footer-title {
+  font-family: "Shrikhand", cursive;
+  text-align: justify;
+}
+.footer-nav {
+  font-size: 1.6rem;
+}
+.footer-nav-list {
+  flex-flow: column nowrap;
+  margin: 1em 0;
+}
 
-.header-box-shadow {
+.header-shadow {
   box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 

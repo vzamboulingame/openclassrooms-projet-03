@@ -29,3 +29,12 @@ img {
   height: 100%;
   object-fit: $img-object-fit;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
