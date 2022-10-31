@@ -8,11 +8,13 @@
     background: $location-bg-color;
     color: $location-text-color;
     padding: 1em;
+
     &-container {
         column-gap: 1.2em;
         justify-content: center;
         align-items: center;
     }
+
     &-shadow {
         -webkit-box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
         -moz-box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
@@ -23,9 +25,11 @@
 .explore {
     background: $section-bg-color;
     padding: 2em 0;
+
     &-container {
         text-align: center;
     }
+
     &-text {
         color: $explore-text-color;
         margin: 1em 0;
@@ -34,6 +38,7 @@
 
 .steps {
     padding: 2em 0;
+
     &-list {
         flex-flow: column nowrap;
         justify-content: center;
@@ -43,14 +48,27 @@
     &-card {
         width: 90%;
         margin: 1em 0;
-        padding: 2em 0;
+        padding: 1.5em 1em;
         border-radius: 2.4rem;
         background: $step-card-color;
-        font-weight: 500;
         text-align: center;
+        vertical-align: middle;
         box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem,
             rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
         transition: $transition-time;
+
+        &-logo {
+            color: $step-card-logo-color;
+            font-size: 1.6rem;
+        }
+
+        &-text {
+            color: $step-card-text-color;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-left: 0.6em;
+        }
+
         &:hover,
         &:focus {
             background: $step-hover-color;
