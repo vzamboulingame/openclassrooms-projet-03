@@ -164,4 +164,16 @@ h1 {
 }
 .location-shadow {
   box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.explore {
+  background: #f7f7f7;
+  padding: 2em 0;
+}
+.explore-container {
+  text-align: center;
+}
+.explore-text {
+  color: #353535;
+  margin: 1em 0;
 }/*# sourceMappingURL=style.css.map */
