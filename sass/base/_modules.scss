@@ -13,7 +13,7 @@
         color: $logo-color;
         font-family: $logo-font, cursive;
         font-size: 3rem;
-        transition-duration: $transition-time;
+        transition: $transition-time;
         &:hover,
         &:focus {
             color: $primary-color;
@@ -65,7 +65,7 @@
     font-size: 1.2rem;
     outline: none;
     border: none;
-    transition-duration: $transition-time;
+    transition: $transition-time;
     &-gradient {
         background: $primary-color;
         background: linear-gradient($btn-gradient-deg, $primary-color, $secondary-color);
