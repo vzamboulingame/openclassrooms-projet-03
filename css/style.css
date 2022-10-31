@@ -75,11 +75,19 @@ h1 {
 * GLOBAL MODULES CLASSES
 *****************************************/
 .header {
-  margin: 0 auto;
+  padding: 1em 0;
+}
+.header-link {
+  text-align: center;
 }
 .header-logo {
-  width: 15rem;
-  padding: 1em 0;
+  color: #101010;
+  font-family: "Shrikhand", cursive;
+  font-size: 3rem;
+  transition-duration: 200ms;
+}
+.header-logo:hover, .header-logo:focus {
+  color: #9356dc;
 }
 
 .footer {

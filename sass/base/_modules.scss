@@ -5,10 +5,19 @@
 @use "../utils/" as *;
 
 .header {
-    margin: 0 auto;
+    padding: 1em 0;
+    &-link {
+        text-align: center;
+    }
     &-logo {
-        width: 15rem;
-        padding: 1em 0;
+        color: $logo-color;
+        font-family: $logo-font, cursive;
+        font-size: 3rem;
+        transition-duration: $transition-time;
+        &:hover,
+        &:focus {
+            color: $primary-color;
+        }
     }
 }
 
