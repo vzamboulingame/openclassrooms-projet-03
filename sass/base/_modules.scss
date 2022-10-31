@@ -58,5 +58,24 @@
     }
 }
 
-.button {
+.btn {
+    color: $btn-text-color;
+    border-radius: 2.8rem;
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    transition-duration: $transition-time;
+    &-gradient {
+        background: $primary-color;
+        background: linear-gradient($btn-gradient-deg, $primary-color, $secondary-color);
+    }
+    &-shadow {
+        box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.3) 0rem 0.3rem 0.7rem -0.3rem;
+    }
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        box-shadow: rgba(50, 50, 93, 0.5) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.5) 0rem 0.3rem 0.7rem -0.3rem;
+    }
 }

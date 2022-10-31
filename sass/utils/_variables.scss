@@ -3,6 +3,7 @@ $min-width: 320px; // Used as lower limit for "mobile-first" media query
 $max-width: 1365px; // Used as upper limit for "desktop-first" media query
 $img-object-fit: cover; // Default object-fit setting for all <img>
 $transition-time: 200ms; // Don't go over 300ms
+$btn-gradient-deg: 350deg;
 
 $html-font-size: 62.5%; // 62.5% of default HTML font size is 10 px. Used to make rem calculations easier (1 rem is now 10px)
 $body-font-size: 1.6rem; // Used with $html-font-size: 62.5% this resets <body> font size to default size of 16px
@@ -14,6 +15,7 @@ $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
 $logo-color: #101010;
+$btn-text-color: #ffffff;
 $footer-bg-color: #353535;
 $footer-text-color: #ffffff;
 $section-bg-color: #f7f7f7;
