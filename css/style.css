@@ -150,7 +150,7 @@ h1 {
 *****************************************/
 @media only screen and (min-width: 320px) {
   html {
-    font-size: calc(62.5% + 0.6vw);
+    font-size: calc(62.5% + 0.4vw);
   }
 }
 @media (prefers-reduced-motion: reduce) {
