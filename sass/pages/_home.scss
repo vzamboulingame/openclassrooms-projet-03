@@ -3,3 +3,14 @@
 *****************************************/
 
 @use "../utils/" as *;
+
+.location {
+    background: $location-bg-color;
+    color: $location-text-color;
+    padding: 1em;
+    &-container {
+        column-gap: 1.2em;
+        justify-content: center;
+        align-items: center;
+    }
+}

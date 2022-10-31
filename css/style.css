@@ -129,4 +129,15 @@ h1 {
 }
 /*****************************************
 * HOME PAGE SPECIFIC STYLES
-*****************************************//*# sourceMappingURL=style.css.map */
+*****************************************/
+.location {
+  background: #eaeaea;
+  color: #353535;
+  padding: 1em;
+}
+.location-container {
+  -moz-column-gap: 1.2em;
+       column-gap: 1.2em;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
