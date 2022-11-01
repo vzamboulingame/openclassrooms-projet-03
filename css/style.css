@@ -298,6 +298,9 @@ h2 {
 /*****************************************
 * MENU PAGE SPECIFIC STYLES
 *****************************************/
+.menu-img {
+  height: 20rem;
+}
 .menu-content {
   position: relative;
   z-index: 2;
