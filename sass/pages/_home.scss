@@ -87,6 +87,10 @@
 
         &:hover,
         &:focus {
+            .steps-card-logo {
+                color: $primary-color;
+            }
+
             background: $step-hover-color;
             box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem,
                 rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
