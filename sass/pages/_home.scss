@@ -46,16 +46,32 @@
         margin: 1em 0;
     }
     &-card {
+        position: relative;
+        z-index: 1;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
         width: 90%;
         margin: 1em 0;
         padding: 1.5em 1em;
         border-radius: 2.4rem;
         background: $step-card-color;
-        text-align: center;
-        vertical-align: middle;
         box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem,
             rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
         transition: $transition-time;
+
+        &-num {
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: -1.5rem;
+            z-index: 2;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            color: $btn-text-color;
+            background: $primary-color;
+        }
 
         &-logo {
             color: $step-card-logo-color;
@@ -66,7 +82,7 @@
             color: $step-card-text-color;
             font-size: 1.5rem;
             font-weight: 500;
-            margin-left: 0.6em;
+            margin-left: 1em;
         }
 
         &:hover,
