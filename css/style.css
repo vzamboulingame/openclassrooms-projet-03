@@ -112,6 +112,9 @@ h2 {
   flex-flow: column nowrap;
   margin: 1em 0;
 }
+.footer-nav-item {
+  margin: 0.1em 0;
+}
 .footer-nav-logo {
   font-size: 1.2rem;
   width: 1.2rem;
