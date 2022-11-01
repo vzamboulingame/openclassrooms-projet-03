@@ -139,6 +139,7 @@ h1 {
 }
 .btn:hover, .btn:focus {
   cursor: pointer;
+  background: linear-gradient(350deg, #ff79da, #99e2d0);
   box-shadow: rgba(50, 50, 93, 0.5) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.5) 0rem 0.3rem 0.7rem -0.3rem;
 }
 
