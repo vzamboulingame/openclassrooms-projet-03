@@ -71,6 +71,10 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
 /*****************************************
 * GLOBAL MODULES CLASSES
 *****************************************/
@@ -141,6 +145,18 @@ h1 {
   cursor: pointer;
   background: linear-gradient(350deg, #ff79da, #99e2d0);
   box-shadow: rgba(50, 50, 93, 0.5) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.5) 0rem 0.3rem 0.7rem -0.3rem;
+}
+
+.card {
+  flex-flow: column nowrap;
+  border-radius: 2rem;
+  margin: 1em 0;
+  transition: 200ms;
+  box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
+}
+.card:hover, .card:focus {
+  background: #f5edff;
+  box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
 }
 
 /*****************************************
@@ -256,4 +272,22 @@ h1 {
 .restaurants {
   background: #f7f7f7;
   padding: 2.5em 0;
+}
+.restaurants-card {
+  height: 25rem;
+}
+.restaurants-card-desc {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 35%;
+  padding: 1em;
+}
+.restaurants-card-img {
+  border-radius: 2rem 2rem 0 0;
+  height: 65%;
+}
+.restaurants-card-heart {
+  font-size: 2.5rem;
+  margin-right: 0.5em;
 }/*# sourceMappingURL=style.css.map */

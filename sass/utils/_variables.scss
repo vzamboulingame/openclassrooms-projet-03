@@ -5,6 +5,7 @@ $img-object-fit: cover; // Default object-fit setting for all <img>
 $transition-time: 200ms; // Don't go over 300ms
 $btn-gradient-deg: 350deg;
 $section-padding: 2.5em;
+$card-border-rad: 2rem;
 
 $html-font-size: 62.5%; // 62.5% of default HTML font size is 10 px. Used to make rem calculations easier (1 rem is now 10px)
 $body-font-size: 1.6rem; // Used with $html-font-size: 62.5% this resets <body> font size to default size of 16px
@@ -27,3 +28,4 @@ $step-card-color: #f7f7f7;
 $step-hover-color: #f5edff;
 $step-card-text-color: #1f1f1f;
 $step-card-logo-color: #7e7e7e;
+$card-hover-color: #f5edff;

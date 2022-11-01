@@ -102,6 +102,24 @@
     background: $section-bg-color;
     padding: $section-padding 0;
 
-    &-container {
+    &-card {
+        height: 25rem;
+        &-desc {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 35%;
+            padding: 1em;
+        }
+
+        &-img {
+            border-radius: $card-border-rad $card-border-rad 0 0;
+            height: 65%;
+        }
+
+        &-heart {
+            font-size: 2.5rem;
+            margin-right: 0.5em;
+        }
     }
 }
