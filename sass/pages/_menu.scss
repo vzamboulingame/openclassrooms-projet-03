@@ -1,0 +1,22 @@
+/*****************************************
+* MENU PAGE SPECIFIC STYLES
+*****************************************/
+
+@use "../utils/" as *;
+
+.menu {
+    &-img {
+        height: 20rem;
+    }
+
+    &-content {
+        padding: $section-padding 0;
+        background: $menu-bg-color;
+        border-radius: $menu-border-rad $menu-border-rad 0 0;
+    }
+
+    &-title {
+        font-family: $logo-font, cursive;
+        font-size: 2rem;
+    }
+}
