@@ -190,7 +190,7 @@ h1 {
 
 .explore {
   background: #f7f7f7;
-  padding: 2em 0;
+  padding: 3em 0;
 }
 .explore-container {
   text-align: center;
@@ -201,7 +201,7 @@ h1 {
 }
 
 .steps {
-  padding: 2em 0;
+  padding: 3em 0;
 }
 .steps-list {
   flex-flow: column nowrap;
@@ -251,4 +251,9 @@ h1 {
 }
 .steps-card:hover .steps-card-logo, .steps-card:focus .steps-card-logo {
   color: #9356dc;
+}
+
+.restaurants {
+  background: #f7f7f7;
+  padding: 3em 0;
 }/*# sourceMappingURL=style.css.map */
