@@ -103,7 +103,10 @@
     padding: $section-padding 0;
 
     &-card {
+        position: relative;
+        z-index: 1;
         height: 25rem;
+
         &-desc {
             flex-flow: row nowrap;
             justify-content: space-between;
@@ -117,7 +120,18 @@
             height: 65%;
         }
 
+        &-new {
+            position: absolute;
+            z-index: 2;
+            top: 1em;
+            right: 1em;
+            background: $tertiary-color;
+            color: $new-text-color;
+            padding: 0.5em 0.8em;
+        }
+
         &-heart {
+            color: $restaurants-heart-color;
             font-size: 2.5rem;
             margin-right: 0.5em;
         }

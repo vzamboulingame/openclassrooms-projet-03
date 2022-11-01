@@ -277,6 +277,8 @@ h2 {
   padding: 2.5em 0;
 }
 .restaurants-card {
+  position: relative;
+  z-index: 1;
   height: 25rem;
 }
 .restaurants-card-desc {
@@ -290,7 +292,17 @@ h2 {
   border-radius: 2rem 2rem 0 0;
   height: 65%;
 }
+.restaurants-card-new {
+  position: absolute;
+  z-index: 2;
+  top: 1em;
+  right: 1em;
+  background: #99e2d0;
+  color: #008766;
+  padding: 0.5em 0.8em;
+}
 .restaurants-card-heart {
+  color: #1f1f1f;
   font-size: 2.5rem;
   margin-right: 0.5em;
 }
