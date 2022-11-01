@@ -24,7 +24,7 @@
 
 .explore {
     background: $section-bg-color;
-    padding: 3em 0;
+    padding: $section-padding 0;
 
     &-container {
         text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .steps {
-    padding: 3em 0;
+    padding: $section-padding 0;
 
     &-list {
         flex-flow: column nowrap;
@@ -100,7 +100,7 @@
 
 .restaurants {
     background: $section-bg-color;
-    padding: 3em 0;
+    padding: $section-padding 0;
 
     &-container {
     }
