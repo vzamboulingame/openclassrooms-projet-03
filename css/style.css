@@ -231,6 +231,9 @@ h3 {
 .explore-container {
   text-align: center;
 }
+.explore-title {
+  font-size: 2rem;
+}
 .explore-text {
   color: #353535;
   margin: 1em 0;
@@ -238,6 +241,9 @@ h3 {
 
 .steps {
   padding: 2.5em 0;
+}
+.steps-title {
+  font-size: 2rem;
 }
 .steps-list {
   flex-flow: column nowrap;
@@ -292,6 +298,9 @@ h3 {
 .restaurants {
   background: #f7f7f7;
   padding: 2.5em 0;
+}
+.restaurants-title {
+  font-size: 2rem;
 }
 .restaurants-card {
   position: relative;
