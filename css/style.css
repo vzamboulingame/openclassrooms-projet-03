@@ -350,6 +350,11 @@ h2 {
   padding: 1em;
   transition: 200ms;
 }
+.menu-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
 .menu-card-text {
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -357,6 +362,9 @@ h2 {
 }
 .menu-card-desc {
   color: #202020;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .menu-card-price {
   color: #353535;

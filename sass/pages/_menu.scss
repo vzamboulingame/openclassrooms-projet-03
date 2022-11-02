@@ -49,6 +49,10 @@
         padding: 1em;
         transition: $transition-time;
 
+        &-title {
+            @include dot-overflow;
+        }
+
         &-text {
             flex-flow: row nowrap;
             justify-content: space-between;
@@ -57,6 +61,7 @@
 
         &-desc {
             color: $menu-card-desc-color;
+            @include dot-overflow;
         }
 
         &-price {
