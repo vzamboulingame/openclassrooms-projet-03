@@ -341,4 +341,10 @@ h2 {
   color: #1f1f1f;
   font-weight: 400;
   font-size: 1.6rem;
+}
+.menu-footer {
+  flex-flow: row nowrap;
+}
+.menu-btn {
+  margin: 1em auto;
 }/*# sourceMappingURL=style.css.map */

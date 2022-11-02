@@ -44,4 +44,12 @@
             font-size: 1.6rem;
         }
     }
+
+    &-footer {
+        flex-flow: row nowrap;
+    }
+
+    &-btn {
+        margin: 1em auto;
+    }
 }
