@@ -28,13 +28,15 @@
     </header>
 
     <main class="menu">
-        <div class="menu-img">
-            <img srcset="img/restaurants/webp/2x/jay-wennington-N_Y88TWmGwA-unsplash.webp 2x,
-            img/restaurants/webp/1x/jay-wennington-N_Y88TWmGwA-unsplash.webp 1x,
-            img/restaurants/webp/0.5x/jay-wennington-N_Y88TWmGwA-unsplash.webp 0.5x"
-                src="img/restaurants/jpg/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+        <picture class="menu-img">
+            <source srcset="img/restaurants/webp/1x/jay-wennington-N_Y88TWmGwA-unsplash.webp" type="image/webp">
+
+            <source srcset="img/restaurants/webp/2x/jay-wennington-N_Y88TWmGwA-unsplash.webp" type="image/webp"
+                media="(min-width: 768px)">
+
+            <img src="img/restaurants/jpg/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt="Plat du restaurant La palette du goût">
-        </div>
+        </picture>
         <article class="menu-content">
             <div class="menu-header page-container flex">
                 <h1 class="menu-header-title">La palette du goût</h1>
