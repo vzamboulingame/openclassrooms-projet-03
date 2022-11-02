@@ -24,7 +24,7 @@ picture {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 ul {
@@ -91,8 +91,7 @@ h2 {
   font-size: 3rem;
   transition: 200ms;
 }
-.header-logo:hover,
-.header-logo:focus {
+.header-logo:hover, .header-logo:focus {
   color: #9356dc;
 }
 
@@ -126,8 +125,7 @@ h2 {
   margin: 0 0 0 1em;
   transition: 200ms;
 }
-.footer-nav-link:hover,
-.footer-nav-link:focus {
+.footer-nav-link:hover, .footer-nav-link:focus {
   color: #ff79da;
 }
 
@@ -145,15 +143,12 @@ h2 {
   background: linear-gradient(350deg, #9356dc, #ff79da);
 }
 .btn-shadow {
-  box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.6rem 1.2rem -0.2rem,
-    rgba(0, 0, 0, 0.3) 0rem 0.3rem 0.7rem -0.3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.3) 0rem 0.3rem 0.7rem -0.3rem;
 }
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   cursor: pointer;
   background: linear-gradient(350deg, #ff79da, #99e2d0);
-  box-shadow: rgba(50, 50, 93, 0.5) 0rem 0.6rem 1.2rem -0.2rem,
-    rgba(0, 0, 0, 0.5) 0rem 0.3rem 0.7rem -0.3rem;
+  box-shadow: rgba(50, 50, 93, 0.5) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.5) 0rem 0.3rem 0.7rem -0.3rem;
 }
 
 .card {
@@ -161,16 +156,11 @@ h2 {
   border-radius: 2rem;
   margin: 1em 0;
   transition: 200ms;
-  box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem,
-    rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem,
-    rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
 }
-.card:hover,
-.card:focus {
+.card:hover, .card:focus {
   background: #f5edff;
-  box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem,
-    rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem,
-    rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
+  box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
 }
 
 /*****************************************
@@ -186,14 +176,14 @@ h2 {
 }
 @media (prefers-reduced-motion: reduce) {
   *,
-  ::before,
-  ::after {
+::before,
+::after {
     -webkit-animation-delay: -1ms !important;
-    animation-delay: -1ms !important; /* 1 */
+            animation-delay: -1ms !important; /* 1 */
     -webkit-animation-duration: 1ms !important;
-    animation-duration: 1ms !important; /* 1 */
+            animation-duration: 1ms !important; /* 1 */
     -webkit-animation-iteration-count: 1 !important;
-    animation-iteration-count: 1 !important; /* 1 */
+            animation-iteration-count: 1 !important; /* 1 */
     background-attachment: initial !important; /* 2 */
     scroll-behavior: auto !important; /* 3 */
     transition-delay: 0s !important; /* 4 */
@@ -210,7 +200,7 @@ h2 {
 }
 .location-container {
   -moz-column-gap: 1.2em;
-  column-gap: 1.2em;
+       column-gap: 1.2em;
   justify-content: center;
   align-items: center;
 }
@@ -250,9 +240,7 @@ h2 {
   padding: 1.5em 1em;
   border-radius: 2.4rem;
   background: #f7f7f7;
-  box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem,
-    rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem,
-    rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
   transition: 200ms;
 }
 .steps-card-num {
@@ -277,15 +265,11 @@ h2 {
   font-weight: 500;
   margin-left: 1em;
 }
-.steps-card:hover,
-.steps-card:focus {
+.steps-card:hover, .steps-card:focus {
   background: #f5edff;
-  box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem,
-    rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem,
-    rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
+  box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.2) 0rem 1.6rem 5.6rem;
 }
-.steps-card:hover .steps-card-logo,
-.steps-card:focus .steps-card-logo {
+.steps-card:hover .steps-card-logo, .steps-card:focus .steps-card-logo {
   color: #9356dc;
 }
 
@@ -364,4 +348,4 @@ h2 {
 }
 .menu-btn {
   margin: 1em auto;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
