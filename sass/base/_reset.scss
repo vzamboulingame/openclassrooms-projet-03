@@ -22,7 +22,8 @@ body {
   font-size: $body-font-size;
 }
 
-img {
+img,
+picture {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
