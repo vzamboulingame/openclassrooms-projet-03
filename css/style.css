@@ -344,6 +344,7 @@ h2 {
 }
 .menu-card {
   padding: 1em;
+  transition: 200ms;
 }
 .menu-card-text {
   flex-flow: row nowrap;
@@ -355,6 +356,9 @@ h2 {
 }
 .menu-card-price {
   color: #353535;
+}
+.menu-card:hover .menu-card-title, .menu-card:focus .menu-card-title {
+  color: #9356dc;
 }
 .menu-footer {
   flex-flow: row nowrap;

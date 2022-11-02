@@ -47,6 +47,7 @@
 
     &-card {
         padding: 1em;
+        transition: $transition-time;
 
         &-text {
             flex-flow: row nowrap;
@@ -60,6 +61,13 @@
 
         &-price {
             color: $menu-card-price-color;
+        }
+
+        &:hover,
+        &:focus {
+            .menu-card-title {
+                color: $primary-color;
+            }
         }
     }
 
