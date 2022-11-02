@@ -45,6 +45,19 @@
         }
     }
 
+    &-card {
+        padding: 1em;
+
+        &-text {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            width: 100%;
+
+            &-desc {
+            }
+        }
+    }
+
     &-footer {
         flex-flow: row nowrap;
     }
