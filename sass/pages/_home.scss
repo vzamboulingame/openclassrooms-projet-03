@@ -106,6 +106,7 @@
         position: relative;
         z-index: 1;
         height: 25rem;
+        transition: $transition-time;
 
         &-desc {
             flex-flow: row nowrap;
@@ -134,6 +135,13 @@
             color: $restaurants-heart-color;
             font-size: 2.5rem;
             margin-right: 0.5em;
+        }
+
+        &:hover,
+        &:focus {
+            .restaurants-card-title {
+                color: $primary-color;
+            }
         }
     }
 }
