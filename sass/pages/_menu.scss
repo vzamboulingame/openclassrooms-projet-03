@@ -39,9 +39,20 @@
 
     &-section {
         &-title {
+            position: relative;
             color: $menu-section-title-color;
             font-weight: 400;
             font-size: 1.6rem;
+
+            &:after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 4rem;
+                height: 0.4rem;
+                background-color: $tertiary-color;
+                bottom: -0.5rem;
+            }
         }
     }
 

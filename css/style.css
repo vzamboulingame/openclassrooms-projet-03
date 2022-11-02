@@ -355,9 +355,19 @@ h2 {
   border-radius: 4rem 4rem 0 0;
 }
 .menu-section-title {
+  position: relative;
   color: #1f1f1f;
   font-weight: 400;
   font-size: 1.6rem;
+}
+.menu-section-title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4rem;
+  height: 0.4rem;
+  background-color: #99e2d0;
+  bottom: -0.5rem;
 }
 .menu-card {
   padding: 1em;
