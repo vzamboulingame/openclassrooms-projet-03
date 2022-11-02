@@ -52,9 +52,14 @@
             flex-flow: row nowrap;
             justify-content: space-between;
             width: 100%;
+        }
 
-            &-desc {
-            }
+        &-desc {
+            color: $menu-card-desc-color;
+        }
+
+        &-price {
+            color: $menu-card-price-color;
         }
     }
 

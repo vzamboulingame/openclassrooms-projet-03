@@ -350,6 +350,12 @@ h2 {
   justify-content: space-between;
   width: 100%;
 }
+.menu-card-desc {
+  color: #202020;
+}
+.menu-card-price {
+  color: #353535;
+}
 .menu-footer {
   flex-flow: row nowrap;
 }
