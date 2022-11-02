@@ -6,13 +6,28 @@
 
 .header {
     padding: 1em 0;
+
     &-link {
-        text-align: center;
+        position: relative;
     }
+
     &-logo {
+        width: min-content;
+        margin: 0 auto;
         color: $logo-color;
         font-family: $logo-font, cursive;
         font-size: 3rem;
+        transition: $transition-time;
+        &:hover,
+        &:focus {
+            color: $primary-color;
+        }
+    }
+
+    &-arrow {
+        position: absolute;
+        font-size: 3rem;
+        margin-top: 0.2em;
         transition: $transition-time;
         &:hover,
         &:focus {

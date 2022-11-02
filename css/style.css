@@ -83,15 +83,28 @@ h2 {
   padding: 1em 0;
 }
 .header-link {
-  text-align: center;
+  position: relative;
 }
 .header-logo {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto;
   color: #101010;
   font-family: "Shrikhand", cursive;
   font-size: 3rem;
   transition: 200ms;
 }
 .header-logo:hover, .header-logo:focus {
+  color: #9356dc;
+}
+.header-arrow {
+  position: absolute;
+  font-size: 3rem;
+  margin-top: 0.2em;
+  transition: 200ms;
+}
+.header-arrow:hover, .header-arrow:focus {
   color: #9356dc;
 }
 
