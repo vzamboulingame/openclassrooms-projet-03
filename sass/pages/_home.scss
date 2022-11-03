@@ -120,17 +120,21 @@
         height: 25rem;
         transition: $transition-time;
 
+        &-pic {
+            display: inline-block;
+            height: 65%;
+        }
+
+        &-img {
+            border-radius: $card-border-rad $card-border-rad 0 0;
+        }
+
         &-desc {
             flex-flow: row nowrap;
             justify-content: space-between;
             align-items: center;
             height: 35%;
             padding: 1em;
-        }
-
-        &-img {
-            border-radius: $card-border-rad $card-border-rad 0 0;
-            height: 65%;
         }
 
         &-new {
