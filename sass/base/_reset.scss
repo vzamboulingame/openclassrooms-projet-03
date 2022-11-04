@@ -38,3 +38,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $location-text-color;
+  opacity: 1; /* Firefox */
+}

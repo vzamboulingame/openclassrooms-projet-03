@@ -9,9 +9,7 @@
   <meta name="author" content="Vinodh Zamboulingame">
   <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
   <link rel="icon" type="image/png" href="img/favicon/favicon.png">
-  <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/regular.min.css">
-  <link rel="stylesheet" type="text/css" href="css/solid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
   <link rel="stylesheet" type="text/css" href="css/sanitize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -24,49 +22,46 @@
   </header>
 
   <main>
-    <div class="location location-shadow">
+    <div class="location location-shadow flex">
       <div class="location-container page-container flex">
         <i class="location-logo fa-solid fa-location-dot"></i>
-        <p class="location-text">Paris, Belleville</p>
+        <input aria-label="location-input" class="location-input" type="text" placeholder="Paris, Belleville"
+          onfocus="this.placeholder=''" onblur="this.placeholder='Paris, Belleville'">
       </div>
     </div>
     <section class="explore">
       <div class="explore-container page-container">
         <h1 class="explore-title">Réservez le menu qui vous convient</h1>
         <p class="explore-text">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-        <button class="btn btn-gradient btn-shadow">Explorer nos restaurants</button>
+        <button aria-label="explore-restaurants-button" class="explore-btn btn btn-gradient btn-shadow">Explorer nos
+          restaurants</button>
       </div>
     </section>
-    <section class="steps">
-      <div class="steps-container page-container">
-        <h2 class="steps-title">Fonctionnement</h2>
-        <ul class="steps-list flex">
-          <li class="steps-card flex">
-            <span class="steps-card-num flex">1</span>
-            <i class="steps-card-logo fa-solid fa-mobile-screen-button"></i>
-            <span class="steps-card-text">Choisissez un restaurant</span>
-          </li>
-          <li class="steps-card flex">
-            <span class="steps-card-num flex">2</span>
-            <i class="steps-card-logo fa-solid fa-list-ul"></i>
-            <span class="steps-card-text">Composez votre menu</span>
-          </li>
-          <li class="steps-card flex">
-            <span class="steps-card-num flex">3</span>
-            <i class="steps-card-logo fa-solid fa-store"></i>
-            <span class="steps-card-text">Dégustez au restaurant</span>
-          </li>
-        </ul>
-      </div>
+    <section class="steps page-container">
+      <h2 class="steps-title">Fonctionnement</h2>
+      <ul class="steps-list flex">
+        <li class="steps-card flex">
+          <span class="steps-card-num flex">1</span>
+          <i class="steps-card-logo fa-solid fa-mobile-screen-button"></i>
+          <span class="steps-card-text">Choisissez un restaurant</span>
+        </li>
+        <li class="steps-card flex">
+          <span class="steps-card-num flex">2</span>
+          <i class="steps-card-logo fa-solid fa-list-ul"></i>
+          <span class="steps-card-text">Composez votre menu</span>
+        </li>
+        <li class="steps-card flex">
+          <span class="steps-card-num flex">3</span>
+          <i class="steps-card-logo fa-solid fa-store"></i>
+          <span class="steps-card-text">Dégustez au restaurant</span>
+        </li>
+      </ul>
     </section>
-    <section class="restaurants">
+    <section class="restaurants" id="restaurants-section">
       <div class="restaurants-container page-container">
-
         <h2 class="restaurants-title">Restaurants</h2>
-
         <a class="restaurants-card card flex" href="html/menu-la-palette-du-gout.html">
           <span class="restaurants-card-new">Nouveau</span>
-
           <picture class="restaurants-card-pic">
             <source class="restaurants-card-img"
               srcset="img/restaurants/webp/2x/jay-wennington-N_Y88TWmGwA-unsplash.webp" type="image/webp"
@@ -76,7 +71,6 @@
             <img class="restaurants-card-img" src="img/restaurants/jpg/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
               alt="Plat du restaurant La palette du goût">
           </picture>
-
           <div class="restaurants-card-desc flex">
             <div class="restaurants-card-text">
               <h3 class="restaurants-card-title">La palette du goût</h3>
@@ -85,10 +79,8 @@
             <i class="restaurants-card-heart fa-regular fa-heart"></i>
           </div>
         </a>
-
         <a class="restaurants-card card flex" href="html/menu-la-note-enchantee.html">
           <span class="restaurants-card-new">Nouveau</span>
-
           <picture class="restaurants-card-pic">
             <source class="restaurants-card-img" srcset="img/restaurants/webp/2x/stil-u2Lp8tXIcjw-unsplash.webp"
               type="image/webp" media="(min-width: 768px)">
@@ -97,7 +89,6 @@
             <img class="restaurants-card-img" src="img/restaurants/jpg/stil-u2Lp8tXIcjw-unsplash.jpg"
               alt="Plat du restaurant La note enchantée">
           </picture>
-
           <div class="restaurants-card-desc flex">
             <div class="restaurants-card-text">
               <h3 class="restaurants-card-title">La note enchantée</h3>
@@ -106,7 +97,6 @@
             <i class="restaurants-card-heart fa-regular fa-heart"></i>
           </div>
         </a>
-
         <a class="restaurants-card card flex" href="html/menu-a-la-francaise.html">
           <picture class="restaurants-card-pic">
             <source class="restaurants-card-img" srcset="img/restaurants/webp/2x/toa-heftiba-DQKerTsQwi0-unsplash.webp"
@@ -116,7 +106,6 @@
             <img class="restaurants-card-img" src="img/restaurants/jpg/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
               alt="Plat du restaurant À la française">
           </picture>
-
           <div class="restaurants-card-desc flex">
             <div class="restaurants-card-text">
               <h3 class="restaurants-card-title">À la française</h3>
@@ -125,7 +114,6 @@
             <i class="restaurants-card-heart fa-regular fa-heart"></i>
           </div>
         </a>
-
         <a class="restaurants-card card flex" href="html/menu-le-delice-des-sens.html">
           <picture class="restaurants-card-pic">
             <source class="restaurants-card-img"
@@ -137,7 +125,6 @@
               src="img/restaurants/jpg/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
               alt="Plat du restaurant Le délice des sens">
           </picture>
-
           <div class="restaurants-card-desc flex">
             <div class="restaurants-card-text">
               <h3 class="restaurants-card-title">Le délice des sens</h3>
@@ -146,7 +133,6 @@
             <i class="restaurants-card-heart fa-regular fa-heart"></i>
           </div>
         </a>
-
       </div>
     </section>
   </main>
