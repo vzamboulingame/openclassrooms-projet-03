@@ -3,3 +3,27 @@
 *****************************************/
 
 @use "../utils/" as *;
+
+@keyframes fadeout {
+    0% {
+        visibility: visible;
+        opacity: 1;
+    }
+    50% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@keyframes loader-animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
