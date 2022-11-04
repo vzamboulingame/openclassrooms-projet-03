@@ -292,8 +292,8 @@ h3 {
 .steps-card {
   position: relative;
   z-index: 1;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: row nowrap;
+  justify-content: start;
   align-items: center;
   width: 90%;
   margin: 0.8em;
@@ -318,12 +318,12 @@ h3 {
 .steps-card-logo {
   color: #7e7e7e;
   font-size: 1.6rem;
+  margin: 0 1em;
 }
 .steps-card-text {
   color: #1f1f1f;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-left: 1em;
 }
 .steps-card:hover, .steps-card:focus {
   background: #f5edff;

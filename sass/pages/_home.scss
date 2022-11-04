@@ -56,8 +56,8 @@
     &-card {
         position: relative;
         z-index: 1;
-        flex-flow: row wrap;
-        justify-content: center;
+        flex-flow: row nowrap;
+        justify-content: start;
         align-items: center;
         width: 90%;
         margin: 0.8em;
@@ -84,13 +84,13 @@
         &-logo {
             color: $step-card-logo-color;
             font-size: 1.6rem;
+            margin: 0 1em;
         }
 
         &-text {
             color: $step-card-text-color;
             font-size: 1.5rem;
             font-weight: 500;
-            margin-left: 1em;
         }
 
         &:hover,
