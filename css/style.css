@@ -231,6 +231,9 @@ h3 {
   opacity: 0;
   color: #9356dc;
 }
+.card-heart:hover, .card-heart:focus, .card-heart:active {
+  cursor: pointer;
+}
 .card-heart:hover .fa-regular, .card-heart:focus .fa-regular, .card-heart:active .fa-regular {
   opacity: 0;
   color: #9356dc;

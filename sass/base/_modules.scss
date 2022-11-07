@@ -127,11 +127,14 @@
         &:hover,
         &:focus,
         &:active {
+            cursor: pointer;
+
             .fa-regular {
                 opacity: 0;
                 color: $filled-heart-color;
                 transition: $heart-transition-time;
             }
+
             .fa-solid {
                 opacity: 1;
                 color: $filled-heart-color;
