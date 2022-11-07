@@ -177,6 +177,10 @@ h3 {
 }
 .footer-nav-item {
   margin: 0.1em 0;
+  transition: 200ms;
+}
+.footer-nav-item:hover, .footer-nav-item:focus {
+  color: #9356dc;
 }
 .footer-nav-logo {
   font-size: 1.2rem;
@@ -185,10 +189,6 @@ h3 {
 }
 .footer-nav-link {
   margin: 0 0 0 1em;
-  transition: 200ms;
-}
-.footer-nav-link:hover, .footer-nav-link:focus {
-  color: #ff79da;
 }
 
 .btn {

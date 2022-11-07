@@ -58,6 +58,12 @@
 
         &-item {
             margin: 0.1em 0;
+            transition: $transition-time;
+
+            &:hover,
+            &:focus {
+                color: $primary-color;
+            }
         }
 
         &-logo {
@@ -68,11 +74,6 @@
 
         &-link {
             margin: 0 0 0 1em;
-            transition: $transition-time;
-            &:hover,
-            &:focus {
-                color: $secondary-color;
-            }
         }
     }
 }
