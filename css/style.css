@@ -365,12 +365,14 @@ h3 {
 .location-container {
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .location-shadow {
   box-shadow: inset 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 .location-logo {
-  margin: 0 1em 0 3em;
+  margin-left: 3.5em;
+  margin-right: 1em;
 }
 .location-input {
   border: none;
