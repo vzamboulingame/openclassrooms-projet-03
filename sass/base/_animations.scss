@@ -27,3 +27,18 @@
         background-position: 500%;
     }
 }
+
+@keyframes fadein {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    50% {
+        visibility: visible;
+        opacity: 0.5;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}

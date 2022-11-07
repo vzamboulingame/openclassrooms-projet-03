@@ -261,8 +261,8 @@ h3 {
   width: 100%;
   height: 100vh;
   background-color: #000000;
-  -webkit-animation: fadeout 2.5s forwards 0.5s;
-          animation: fadeout 2.5s forwards 0.5s;
+  -webkit-animation: fadeout 2s forwards 0.2s;
+          animation: fadeout 2s forwards 0.2s;
 }
 .loader-text {
   position: relative;
@@ -274,8 +274,8 @@ h3 {
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  -webkit-animation: loader-animate 2.5s forwards;
-          animation: loader-animate 2.5s forwards;
+  -webkit-animation: loader-animate 2s forwards;
+          animation: loader-animate 2s forwards;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -326,6 +326,34 @@ h3 {
   }
   100% {
     background-position: 500%;
+  }
+}
+@-webkit-keyframes fadein {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
   }
 }
 /*****************************************
@@ -541,6 +569,21 @@ h3 {
   height: 0.4rem;
   background-color: #99e2d0;
   bottom: -0.5rem;
+}
+.menu-section:nth-child(2) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 1.6s;
+          animation: fadein 2s ease-in-out forwards 1.6s;
+}
+.menu-section:nth-child(3) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 1.8s;
+          animation: fadein 2s ease-in-out forwards 1.8s;
+}
+.menu-section:nth-child(4) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 2s;
+          animation: fadein 2s ease-in-out forwards 2s;
 }
 .menu-card {
   padding: 1em;

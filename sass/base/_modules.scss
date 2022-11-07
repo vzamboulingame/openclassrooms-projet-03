@@ -164,7 +164,7 @@
     width: 100%;
     height: 100vh;
     background-color: #000000;
-    animation: fadeout 2.5s forwards 0.5s;
+    animation: fadeout $loading-animation-time forwards 0.2s;
 
     &-text {
         position: relative;
@@ -176,7 +176,7 @@
         background: linear-gradient(90deg, #000, #fff, #000);
         background-repeat: no-repeat;
         background-size: 80%;
-        animation: loader-animate 2.5s forwards;
+        animation: loader-animate $loading-animation-time forwards;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
