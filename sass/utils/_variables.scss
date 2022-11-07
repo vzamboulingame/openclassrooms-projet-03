@@ -7,6 +7,7 @@ $btn-gradient-deg: 350deg;
 $section-padding: 2.5em;
 $card-border-rad: 2rem;
 $menu-border-rad: 4rem;
+$heart-transition-time: 1.2s;
 
 $html-font-size: 62.5%; // 62.5% of default HTML font size is 10 px. Used to make rem calculations easier (1 rem is now 10px)
 $body-font-size: 1.6rem; // Used with $html-font-size: 62.5% this resets <body> font size to default size of 16px
@@ -31,7 +32,8 @@ $step-card-text-color: #1f1f1f;
 $step-card-logo-color: #7e7e7e;
 $card-hover-color: #f5edff;
 $new-text-color: #008766;
-$restaurants-heart-color: #1f1f1f;
+$empty-heart-color: #1f1f1f;
+$filled-heart-color: #9356dc;
 $menu-bg-color: #f7f7f7;
 $menu-title-color: #101010;
 $menu-heart-color: #4a4a4a;

@@ -161,7 +161,7 @@
         }
 
         &-heart {
-            color: $restaurants-heart-color;
+            z-index: 3;
             font-size: 2.5rem;
             margin-right: 0.5em;
         }

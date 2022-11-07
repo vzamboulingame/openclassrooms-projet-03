@@ -110,6 +110,36 @@
     transition: $transition-time;
     box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem,
         rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
+
+    &-heart {
+        transition: $heart-transition-time;
+
+        .fa-regular {
+            opacity: 1;
+            color: $empty-heart-color;
+        }
+
+        .fa-solid {
+            opacity: 0;
+            color: $filled-heart-color;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            .fa-regular {
+                opacity: 0;
+                color: $filled-heart-color;
+                transition: $heart-transition-time;
+            }
+            .fa-solid {
+                opacity: 1;
+                color: $filled-heart-color;
+                transition: $heart-transition-time;
+            }
+        }
+    }
+
     &:hover,
     &:focus {
         box-shadow: rgba(17, 17, 26, 0.2) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.2) 0rem 0.8rem 2.4rem,
