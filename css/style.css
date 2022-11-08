@@ -576,20 +576,19 @@ h3 {
   background: #f7f7f7;
   border-radius: 4rem 4rem 0 0;
 }
-.menu-content > :nth-child(2) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 1.6s;
-          animation: fadein 2s ease-in-out forwards 1.6s;
+.menu-section {
+  flex-flow: column nowrap;
 }
-.menu-content > :nth-child(3) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 1.8s;
-          animation: fadein 2s ease-in-out forwards 1.8s;
+@media only screen and (min-width: 1024px) {
+  .menu-section {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
 }
-.menu-content > :nth-child(4) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 2s;
-          animation: fadein 2s ease-in-out forwards 2s;
+@media only screen and (min-width: 1024px) {
+  .menu-section-container {
+    width: 32%;
+  }
 }
 .menu-section-title {
   position: relative;
@@ -605,6 +604,21 @@ h3 {
   height: 0.4rem;
   background-color: #99e2d0;
   bottom: -0.5rem;
+}
+.menu-section > :nth-child(1) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 1.6s;
+          animation: fadein 2s ease-in-out forwards 1.6s;
+}
+.menu-section > :nth-child(2) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 1.8s;
+          animation: fadein 2s ease-in-out forwards 1.8s;
+}
+.menu-section > :nth-child(3) {
+  visibility: hidden;
+  -webkit-animation: fadein 2s ease-in-out forwards 2s;
+          animation: fadein 2s ease-in-out forwards 2s;
 }
 .menu-card {
   padding: 1em;

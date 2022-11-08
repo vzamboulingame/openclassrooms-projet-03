@@ -35,24 +35,22 @@
         padding: $section-padding 0;
         background: $menu-bg-color;
         border-radius: $menu-border-rad $menu-border-rad 0 0;
-
-        > :nth-child(2) {
-            visibility: hidden;
-            animation: fadein 2s ease-in-out forwards 1.6s;
-        }
-
-        > :nth-child(3) {
-            visibility: hidden;
-            animation: fadein 2s ease-in-out forwards 1.8s;
-        }
-
-        > :nth-child(4) {
-            visibility: hidden;
-            animation: fadein 2s ease-in-out forwards 2s;
-        }
     }
 
     &-section {
+        flex-flow: column nowrap;
+
+        @include for-desktop {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+
+        &-container {
+            @include for-desktop {
+                width: 32%;
+            }
+        }
+
         &-title {
             position: relative;
             color: $menu-section-title-color;
@@ -68,6 +66,21 @@
                 background-color: $tertiary-color;
                 bottom: -0.5rem;
             }
+        }
+
+        > :nth-child(1) {
+            visibility: hidden;
+            animation: fadein 2s ease-in-out forwards 1.6s;
+        }
+
+        > :nth-child(2) {
+            visibility: hidden;
+            animation: fadein 2s ease-in-out forwards 1.8s;
+        }
+
+        > :nth-child(3) {
+            visibility: hidden;
+            animation: fadein 2s ease-in-out forwards 2s;
         }
     }
 
