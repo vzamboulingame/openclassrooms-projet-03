@@ -158,26 +158,48 @@ h3 {
 }
 
 .footer {
-  flex-flow: column nowrap;
   background: #353535;
   color: #ffffff;
+}
+.footer-container {
+  flex-flow: column nowrap;
   padding: 1.5em 0;
+}
+@media only screen and (min-width: 1024px) {
+  .footer-container {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
 }
 .footer-title {
   font-family: "Shrikhand", cursive;
   font-size: 1.8rem;
   text-align: justify;
+  margin-bottom: 1em;
 }
 .footer-nav {
+  width: 100%;
   font-size: 1.6rem;
+  text-align: justify;
 }
 .footer-nav-list {
   flex-flow: column nowrap;
-  margin: 1em 0;
+  justify-content: flex-start;
+}
+@media only screen and (min-width: 1024px) {
+  .footer-nav-list {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
 }
 .footer-nav-item {
   margin: 0.1em 0;
   transition: 200ms;
+}
+@media only screen and (min-width: 1024px) {
+  .footer-nav-item {
+    width: 40%;
+  }
 }
 .footer-nav-item:hover, .footer-nav-item:focus {
   color: #9356dc;
