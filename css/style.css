@@ -664,7 +664,7 @@ h3 {
 }
 .menu-card-price {
   color: #353535;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 .menu-card:hover .menu-card-title, .menu-card:focus .menu-card-title {
   color: #9356dc;
