@@ -493,11 +493,26 @@ h3 {
 .restaurants-title {
   font-size: 2rem;
 }
+.restaurants-container {
+  flex-flow: column nowrap;
+}
+@media only screen and (min-width: 768px) {
+  .restaurants-container {
+    flex-flow: row wrap;
+    -moz-column-gap: 4%;
+         column-gap: 4%;
+  }
+}
 .restaurants-card {
   position: relative;
   z-index: 1;
   height: 25rem;
   transition: 200ms;
+}
+@media only screen and (min-width: 768px) {
+  .restaurants-card {
+    width: 48%;
+  }
 }
 .restaurants-card-pic {
   display: inline-block;

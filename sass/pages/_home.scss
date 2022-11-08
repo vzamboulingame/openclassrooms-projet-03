@@ -134,11 +134,24 @@
         font-size: 2rem;
     }
 
+    &-container {
+        flex-flow: column nowrap;
+
+        @include for-tablet {
+            flex-flow: row wrap;
+            column-gap: 4%;
+        }
+    }
+
     &-card {
         position: relative;
         z-index: 1;
         height: 25rem;
         transition: $transition-time;
+
+        @include for-tablet {
+            width: 48%;
+        }
 
         &-pic {
             display: inline-block;
