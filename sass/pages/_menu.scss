@@ -145,6 +145,10 @@
                 display: flex;
                 width: 15%;
             }
+
+            .menu-card-check {
+                animation: rotate-right $transition-time forwards;
+            }
         }
     }
 

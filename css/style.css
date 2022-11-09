@@ -378,6 +378,34 @@ h3 {
     opacity: 1;
   }
 }
+@-webkit-keyframes rotate-right {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-right {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /*****************************************
 * GLOBAL MEDIA QUERIES
 *****************************************/
@@ -695,6 +723,10 @@ h3 {
 .menu-card:hover .menu-card-checkbox, .menu-card:focus .menu-card-checkbox, .menu-card:active .menu-card-checkbox {
   display: flex;
   width: 15%;
+}
+.menu-card:hover .menu-card-check, .menu-card:focus .menu-card-check, .menu-card:active .menu-card-check {
+  -webkit-animation: rotate-right 300ms forwards;
+          animation: rotate-right 300ms forwards;
 }
 .menu-footer {
   flex-flow: row nowrap;
