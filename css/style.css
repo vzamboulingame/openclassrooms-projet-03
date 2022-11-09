@@ -142,7 +142,7 @@ h3 {
   color: #101010;
   font-family: "Shrikhand", cursive;
   font-size: 3rem;
-  transition: 200ms;
+  transition: 300ms;
 }
 .header-logo:hover, .header-logo:focus {
   color: #9356dc;
@@ -151,7 +151,7 @@ h3 {
   position: absolute;
   font-size: 3rem;
   margin-top: 0.2em;
-  transition: 200ms;
+  transition: 300ms;
 }
 .header-arrow:hover, .header-arrow:focus {
   color: #9356dc;
@@ -194,7 +194,7 @@ h3 {
 }
 .footer-nav-item {
   margin: 0.1em 0;
-  transition: 200ms;
+  transition: 300ms;
 }
 @media only screen and (min-width: 1024px) {
   .footer-nav-item {
@@ -220,7 +220,7 @@ h3 {
   font-size: 1.2rem;
   outline: none;
   border: none;
-  transition: 200ms;
+  transition: 300ms;
 }
 .btn-gradient {
   background: #9356dc;
@@ -239,7 +239,7 @@ h3 {
   flex-flow: column nowrap;
   border-radius: 2rem;
   margin: 1em 0;
-  transition: 200ms;
+  transition: 300ms;
   box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
 }
 .card-heart {
@@ -476,7 +476,7 @@ h3 {
   border-radius: 2rem;
   background: #f7f7f7;
   box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
-  transition: 200ms;
+  transition: 300ms;
 }
 .steps-card-num {
   position: absolute;
@@ -529,7 +529,7 @@ h3 {
   position: relative;
   z-index: 1;
   height: 25rem;
-  transition: 200ms;
+  transition: 300ms;
 }
 @media only screen and (min-width: 768px) {
   .restaurants-card {
@@ -600,6 +600,20 @@ h3 {
 }
 .menu-section {
   flex-flow: column nowrap;
+  /*         > :nth-child(1) {
+      visibility: hidden;
+      animation: fadein 2s ease-in-out forwards 1.6s;
+  }
+
+  > :nth-child(2) {
+      visibility: hidden;
+      animation: fadein 2s ease-in-out forwards 1.8s;
+  }
+
+  > :nth-child(3) {
+      visibility: hidden;
+      animation: fadein 2s ease-in-out forwards 2s;
+  } */
 }
 @media only screen and (min-width: 1024px) {
   .menu-section {
@@ -627,34 +641,24 @@ h3 {
   background-color: #99e2d0;
   bottom: -0.5rem;
 }
-.menu-section > :nth-child(1) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 1.6s;
-          animation: fadein 2s ease-in-out forwards 1.6s;
-}
-.menu-section > :nth-child(2) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 1.8s;
-          animation: fadein 2s ease-in-out forwards 1.8s;
-}
-.menu-section > :nth-child(3) {
-  visibility: hidden;
-  -webkit-animation: fadein 2s ease-in-out forwards 2s;
-          animation: fadein 2s ease-in-out forwards 2s;
-}
 .menu-card {
+  flex-flow: row nowrap;
+}
+.menu-card-container {
+  width: 100%;
   padding: 1em;
-  transition: 200ms;
+  border-radius: 2rem;
+  transition: 300ms;
 }
 .menu-card-title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  transition: 300ms;
 }
 .menu-card-text {
   flex-flow: row nowrap;
   justify-content: space-between;
-  width: 100%;
 }
 .menu-card-desc {
   color: #202020;
@@ -666,8 +670,27 @@ h3 {
   color: #353535;
   margin-right: 0.5em;
 }
-.menu-card:hover .menu-card-title, .menu-card:focus .menu-card-title {
+.menu-card-checkbox {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 2rem 2rem 0;
+  background: #99e2d0;
+  transition: 300ms;
+}
+.menu-card-check {
+  color: #ffffff;
+  font-size: 2.2rem;
+}
+.menu-card:hover .menu-card-title, .menu-card:focus .menu-card-title, .menu-card:active .menu-card-title {
   color: #9356dc;
+}
+.menu-card:hover .menu-card-container, .menu-card:focus .menu-card-container, .menu-card:active .menu-card-container {
+  width: 85%;
+}
+.menu-card:hover .menu-card-checkbox, .menu-card:focus .menu-card-checkbox, .menu-card:active .menu-card-checkbox {
+  display: flex;
+  width: 15%;
 }
 .menu-footer {
   flex-flow: row nowrap;
