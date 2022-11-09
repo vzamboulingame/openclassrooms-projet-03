@@ -91,7 +91,7 @@
             width: 100%;
             padding: 1em;
             border-radius: $card-border-rad;
-            transition: $transition-time;
+            transition: 0.5s;
         }
 
         &-title {
@@ -120,7 +120,7 @@
             align-items: center;
             border-radius: 0 $card-border-rad $card-border-rad 0;
             background: $tertiary-color;
-            transition: 1s;
+            transition: 0.5s;
         }
 
         &-check {

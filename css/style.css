@@ -677,7 +677,7 @@ h3 {
   width: 100%;
   padding: 1em;
   border-radius: 2rem;
-  transition: 300ms;
+  transition: 0.5s;
 }
 .menu-card-title {
   text-overflow: ellipsis;
@@ -705,7 +705,7 @@ h3 {
   align-items: center;
   border-radius: 0 2rem 2rem 0;
   background: #99e2d0;
-  transition: 1s;
+  transition: 0.5s;
 }
 .menu-card-check {
   color: #ffffff;
