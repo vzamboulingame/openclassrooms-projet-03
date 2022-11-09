@@ -131,6 +131,8 @@
         &:hover,
         &:focus,
         &:active {
+            cursor: pointer;
+
             .menu-card-title {
                 color: $primary-color;
             }

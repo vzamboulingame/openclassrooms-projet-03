@@ -683,6 +683,9 @@ h3 {
   color: #ffffff;
   font-size: 2.2rem;
 }
+.menu-card:hover, .menu-card:focus, .menu-card:active {
+  cursor: pointer;
+}
 .menu-card:hover .menu-card-title, .menu-card:focus .menu-card-title, .menu-card:active .menu-card-title {
   color: #9356dc;
 }
