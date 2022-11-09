@@ -705,11 +705,12 @@ h3 {
   align-items: center;
   border-radius: 0 2rem 2rem 0;
   background: #99e2d0;
-  transition: 300ms;
+  transition: 1s;
 }
 .menu-card-check {
   color: #ffffff;
   font-size: 2.2rem;
+  transition: 300ms;
 }
 .menu-card:hover, .menu-card:focus, .menu-card:active {
   cursor: pointer;
