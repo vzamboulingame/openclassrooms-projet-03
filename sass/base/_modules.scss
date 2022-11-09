@@ -172,7 +172,7 @@
 }
 
 .loader {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -181,7 +181,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #000000;
     animation: fadeout $loading-animation-time forwards 0.2s;
