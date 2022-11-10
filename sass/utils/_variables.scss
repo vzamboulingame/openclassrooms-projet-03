@@ -14,6 +14,7 @@ $transition-time: 0.2s; // Don't go over 0.3ms
 $loading-animation-time: 2s;
 $heart-transition-time: 1.2s;
 $check-slide-time: 0.4s;
+$fadein-animation-time: 2s;
 
 $html-font-size: 62.5%; // 62.5% of default HTML font size is 10 px. Used to make rem calculations easier (1 rem is now 10px)
 $body-font-size: 1.6rem; // Used with $html-font-size: 62.5% this resets <body> font size to default size of 16px
