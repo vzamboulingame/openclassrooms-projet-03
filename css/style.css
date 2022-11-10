@@ -131,9 +131,6 @@ h3 {
 .header {
   padding: 1em 0;
 }
-.header-link {
-  position: relative;
-}
 .header-logo {
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -148,9 +145,10 @@ h3 {
   color: #9356dc;
 }
 .header-arrow {
-  position: absolute;
-  font-size: 3rem;
+  float: left;
+  vertical-align: middle;
   margin-top: 0.2em;
+  font-size: 3rem;
   transition: 0.2s;
 }
 .header-arrow:hover, .header-arrow:focus {
