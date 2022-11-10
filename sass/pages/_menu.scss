@@ -91,7 +91,7 @@
             width: 100%;
             padding: 1em;
             border-radius: $card-border-rad;
-            transition: 0.5s;
+            transition: $check-slide-time;
         }
 
         &-title {
@@ -120,7 +120,7 @@
             align-items: center;
             border-radius: 0 $card-border-rad $card-border-rad 0;
             background: $tertiary-color;
-            transition: 0.5s;
+            transition: $check-slide-time;
         }
 
         &-check {
@@ -148,7 +148,7 @@
             }
 
             .menu-card-check {
-                animation: rotate-right $transition-time forwards;
+                animation: rotate-right $check-slide-time forwards;
             }
         }
     }

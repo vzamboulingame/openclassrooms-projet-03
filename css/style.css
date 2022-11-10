@@ -142,7 +142,7 @@ h3 {
   color: #101010;
   font-family: "Shrikhand", cursive;
   font-size: 3rem;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .header-logo:hover, .header-logo:focus {
   color: #9356dc;
@@ -151,7 +151,7 @@ h3 {
   position: absolute;
   font-size: 3rem;
   margin-top: 0.2em;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .header-arrow:hover, .header-arrow:focus {
   color: #9356dc;
@@ -194,7 +194,7 @@ h3 {
 }
 .footer-nav-item {
   margin: 0.1em 0;
-  transition: 300ms;
+  transition: 0.2s;
 }
 @media only screen and (min-width: 1024px) {
   .footer-nav-item {
@@ -220,7 +220,7 @@ h3 {
   font-size: 1.2rem;
   outline: none;
   border: none;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .btn-gradient {
   background: #9356dc;
@@ -239,7 +239,7 @@ h3 {
   flex-flow: column nowrap;
   border-radius: 2rem;
   margin: 1em 0;
-  transition: 300ms;
+  transition: 0.2s;
   box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
 }
 .card-heart {
@@ -504,7 +504,7 @@ h3 {
   border-radius: 2rem;
   background: #f7f7f7;
   box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1.6rem, rgba(17, 17, 26, 0.1) 0rem 0.8rem 2.4rem, rgba(17, 17, 26, 0.1) 0rem 1.6rem 5.6rem;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .steps-card-num {
   position: absolute;
@@ -557,7 +557,7 @@ h3 {
   position: relative;
   z-index: 1;
   height: 25rem;
-  transition: 300ms;
+  transition: 0.2s;
 }
 @media only screen and (min-width: 768px) {
   .restaurants-card {
@@ -677,13 +677,13 @@ h3 {
   width: 100%;
   padding: 1em;
   border-radius: 2rem;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 .menu-card-title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .menu-card-text {
   flex-flow: row nowrap;
@@ -705,12 +705,12 @@ h3 {
   align-items: center;
   border-radius: 0 2rem 2rem 0;
   background: #99e2d0;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 .menu-card-check {
   color: #ffffff;
   font-size: 2.2rem;
-  transition: 300ms;
+  transition: 0.2s;
 }
 .menu-card:hover, .menu-card:focus, .menu-card:active {
   cursor: pointer;
@@ -726,8 +726,8 @@ h3 {
   width: 15%;
 }
 .menu-card:hover .menu-card-check, .menu-card:focus .menu-card-check, .menu-card:active .menu-card-check {
-  -webkit-animation: rotate-right 300ms forwards;
-          animation: rotate-right 300ms forwards;
+  -webkit-animation: rotate-right 0.4s forwards;
+          animation: rotate-right 0.4s forwards;
 }
 .menu-footer {
   flex-flow: row nowrap;
